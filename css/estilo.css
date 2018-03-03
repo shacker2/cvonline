@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    background-color: #9EC1A3;
+    background-image: url(../img/box3.jpg);
+    background-repeat: repeat
+}
+
+a {
+    text-decoration: none
+}
+
+h1 {
+    font-size: 2.9em;
+    color: #1F363D;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #40798C;
+}
+
+.box {
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 1%;
+    float: right;
+    width: 78%;
+    background-repeat: repeat-x;
+    background-position: bottom bottom;
+    border: 2px solid #ccc;
+    opacity: 0.9
+}
+
+.portfo li {
+    position: relative;
+    float: left;
+    padding: 3px;
+    list-style: none
+}
+
+.portfo li img {
+    width: 150px;
+}
+
+.follow li {
+    position: relative;
+    float: left;
+    padding: 3px;
+    list-style: none
+}
+
+#nombre {
+    font-size: 2.9em;
+    color: #9EC1A3;
+    font-weight: bolder
+}
+
+#menu {
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+    position: fixed
+}
+
+#menu ul li {
+    list-style-type: none;
+    padding: 5px;
+    background: #40798C;
+    color: white;
+    width: 85%;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+#menu ul li {
+    color: white;
+    text-decoration: none
+}
+
+#menu ul li a:hover {
+    color: #70A9A1;
+    padding-left: 5px;
+}
+
+#menu ul li:hover {
+    background: #CFE0C3;
+    color: #70A9A1
+}
+
+#cv {
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    padding: 10%;
+}
